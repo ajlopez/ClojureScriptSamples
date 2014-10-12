@@ -1,10 +1,26 @@
 # hello-clojure
 
-A Clojure library designed to ... well, that part is up to you.
+A simple `Hello, world` in the browser.
 
 ## Usage
 
-FIXME
+Compile
+```
+lein cljsbuild once
+```
+
+Clean and Compile
+```
+lein cljsbuild clean
+lein cljsbuild once
+```
+
+Run: open `resources/public/index.html` in your browser.
+
+Run interactive REPL based on Rhino (JavaScript engine in Java)
+```
+lein cljsbuild repl-rhino
+```
 
 ## License
 
