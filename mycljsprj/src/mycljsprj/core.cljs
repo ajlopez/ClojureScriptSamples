@@ -11,4 +11,9 @@
 (let [inc (fn [x] (+ x 1))]
     (inc 4))
     
-    
+(clojure.core/defmacro mydefn [name & fdecl]
+	`(def ~name (fn ~@fdecl))
+)
+
+(mydefn add2 (fn [x] (+ x 2)))
+
