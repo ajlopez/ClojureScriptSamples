@@ -2,4 +2,5 @@
 
 (cljs.build.api/build "src"
   {:main 'hello-world.core
-   :output-to "out/main.js"})
+   :output-to "main.js"
+   :target :nodejs})

@@ -1,3 +1,8 @@
 Building ...
-... done. Elapsed 0.17629319 seconds
+Compiling src\hello_world\core.cljs
+Reading analysis cache for jar:file:/D:/Software/ClojureScript/cljs.jar!/cljs/nodejs.cljs
+Compiling out\cljs\nodejs.cljs
+Compiling out\cljs\core.cljs
+Using cached cljs.core out\cljs\core.cljs
+... done. Elapsed 0.325662461 seconds
 Watching paths: E:\Git\ClojureScriptSamples\simple-hello\src
